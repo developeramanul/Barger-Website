@@ -1,0 +1,516 @@
+/*Montserrat, Alfa Slab One, Bebas Neue Fonts Family*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*==========
+Global CSS
+==========*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+button{
+	font-family: 'Alfa Slab One', cursive;
+}
+ul li{
+	list-style: none;
+}
+.no-padding{
+    padding: 0;
+}
+/*============
+header section
+==============*/
+header{
+	background: url(../img/bg.png) no-repeat center top;
+	background-size: cover;
+	padding: 25px 0;
+}
+.mobile-logo{
+    display: none;
+}
+.Contact-info{
+	text-align: right;
+	padding-right: 25px;
+
+}
+.Contact-info li {
+    display: inline;
+    padding: 0 15px;
+    line-height: 65px;
+}
+nav{
+	margin-top: -40px;
+}
+.nav-item{
+	font-family: 'Bebas Neue', cursive;
+	color:#3d2514;
+	font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0 5px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #bf2222;
+} 
+
+
+/*============
+ Banner Section
+ =============*/
+.banner-section{
+	width: 100%;
+}
+.banner-section h4{
+	font-family: 'Bebas Neue', cursive;
+    border: 2px dashed #3d2514;
+    padding: 10px 15PX;
+    width: 66%;
+    text-align: center;
+    margin-top: 200px;
+}
+.banner-section h1{
+	text-transform: uppercase;
+    font-size: 122px;
+    color: #3d2514;
+    text-shadow: 3px 3px 0px white;
+	
+}
+.banner-section h3{
+	text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px 0px white;
+    font-size: 61px;
+    color: #3D2514;
+    line-height: 25px;
+}
+
+.barger-img{
+	position: relative;
+}
+.package-price{
+	position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #bf2222;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 175px;
+    color: #fff;
+    padding: 10px;
+}
+.package-border{
+	width: 180px;
+    height: 180px;
+    border: 2px dashed #fff;
+    border-radius: 50%;
+}
+.package-price h2{
+	font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20px;
+}
+.package-price h2 span{
+	font-size: 40px;
+}
+.package-price p{
+	font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 15;
+    margin-top: -25px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+/*============
+Features Section
+ =============*/
+.Feature-section{
+	padding: 75px 0px;
+}
+.Feature-item{
+	position: relative;;
+}
+.features-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+}
+.features-content h5{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: 0;
+    line-height: 26px;
+}
+.features-content h3{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.last-item{
+    padding-top: 30px;
+}
+.last-item h5{
+    padding-top: 22px;
+}
+
+/* ==============
+Menu Section 
+=============== */
+.menu-section{
+    padding: 75px 0;
+    
+}
+.menu-section h3{
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffc045;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    width: 25%;
+    margin: 0 auto 15px;
+}
+.menu-section h2{
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.menu-section p{
+    color: #3d2514;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;  
+}
+.menu-items{
+    padding-top: 50px;
+    text-align: center;
+}
+.menu-items h3 {
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 42px;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    margin: 0;
+}
+.menu-items p {
+    color: #3d2514;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+.btn-menu {
+    border: none;
+    padding: 14px 40px;
+    background: #bf2222;
+    color: #fff;
+    box-shadow: 1px 1px 5px #333;
+}
+.btn-menu:hover{
+    background: #ffc045;
+    color: #3d2514;
+    cursor: pointer;
+}
+
+/* ==============
+Event Section 
+=============== */
+.event-section{
+	padding:75px 0;
+}
+.events-area{
+	box-shadow: 0px 0px 20px #d8cece;
+    padding: 30px;
+}
+
+.event-section h4{
+	text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 30px;
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+}
+.event-section h2{
+	text-transform: uppercase;
+    font-size: 48px;
+    color: #3d2514;
+    padding-bottom: 30px;
+	
+}
+.event-section p{
+	font-size: 20px;
+    padding-right: 50px;
+	
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15;
+    height: 15px;
+    margin: 5px 3px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -25px;
+    text-align: left;
+    z-index: 999;
+    position: relative;
+}
+
+/* =======================
+Reservation Section Section 
+==========================*/
+.reservation-section{
+	background: url(../img/contact-bg.png) no-repeat center;
+	background-size:cover;
+	padding:150px;
+}
+.reservation-section h4{
+	text-align:center;
+	text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 30px;
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+}
+.reservation-section h2{
+	text-align:center;
+	text-transform: uppercase;
+    font-size: 48px;
+    color: #3d2514;
+    padding-bottom: 30px;
+}
+.form-group{
+    margin:0 0 25px;
+}
+.form-control{
+    border: 2px solid #bebebe;
+    padding: 10px 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 2px solid #ffc045;
+}
+.btn-reservation{
+    background: #bf2222;
+    color: white;
+    border: none;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    word-spacing: 1px;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* ==============
+Footer Section 
+================*/
+footer{
+    background: url(../img/footer-bg.png) no-repeat center top;
+    background-size: cover;
+    padding: 75px 0 25px ;
+}
+footer img{
+    width: 260px;
+    height: auto;
+}
+footer p{
+    color: #fff;
+    padding: 25px 25px 25px 0px;
+}
+.widget h3{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20px;
+}
+.widget ul{
+    padding: 0px;
+}
+.widget ul li{
+    list-style: none;
+}
+.useful-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    transition: 0.3s ease-in-out;
+}
+.useful-link ul li a:hover{
+    color: #ffc045;
+    padding-left: 5px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+}
+.social-media ul li a .fa{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #ffc045;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.social-media ul li a .fa:hover{
+    background: #bf2222;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.copyright p{
+    text-align: center;
+}
+
+/* =====================
+Media Query For Desktop
+======================== */
+@media (min-width: 992px) and (max-width: 1024px){
+    .banner-section h4 {width: 88%;}
+    .banner-section h1 {font-size: 96px;}
+    .btn-reservation {font-size: 22px;}
+}
+/* =====================
+Media Query For notebook
+======================== */
+@media (min-width:768px) and (max-width: 992px){
+    .Contact-info {text-align: center; padding: 0;}
+    .Contact-info li {display: inline; padding: 0;}
+    .m-logo{display: none;}
+    .mobile-logo {display: initial;width: 70%;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .banner-section h4 {width: 100%; margin-top: 60px; font-size: 15px;}
+    .banner-section h1 {font-size: 56px; text-align: center;}
+    .banner-section h3 {font-size: 44px; text-align: center;}
+    .bnr-item-img {margin-bottom: -100px;}
+    .package-price {bottom: 100px;}
+    .package-price { position: relative; width: 130px; height: 130px;}
+    .package-border { width: 110px; height: 110px;}
+    .package-price h2 {font-size: 58px;}
+    .package-price p {letter-spacing: 5px; margin-top: -20px; padding-left: 5px; font-size: 15px;}
+    .Feature-section {padding: 0px;}
+    .last-item {padding-top: 18px;}
+    .features-content h3 {font-size: 30px; line-height: 26px;}
+    .menu-section h3 {width: 70%;}
+    .menu-section h2 {font-size: 28px;}
+    .menu-section p {font-size: 16px; line-height: 20px;}
+    .menu-section {padding: 40px 0;}   
+    .menu-items h3 {width: 100%;}
+    .event-section h2 {font-size: 36px; line-height: 36px; padding-bottom: 12px;}
+    .event-section {padding: 0px;}
+    .event-section p {font-size: 16px;}
+    .event-section p {font-size: 16px;}
+    .reservation-section{padding: 25px;}
+    .reservation-section h2 {font-size: 36px;}
+    .btn-reservation {font-size: 22px;}
+    .social-media ul li {margin: 0;}
+    .social-media ul li a .fa {width: 38px;}
+    footer img {width: 170px;}
+    .widget h3 {padding-top: 8px;}
+}
+/* ====================
+Media Query For Tablet
+======================= */
+@media (min-width:576px) and (max-width: 768px){
+    .Contact-info {text-align: center; padding: 0;}
+    .Contact-info li {display: inline; padding: 0;}
+    .m-logo{display: none;}
+    .mobile-logo {display: initial;width: 70%;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .banner-section h4 {width: 100%; margin-top: 60px; font-size: 15px;}
+    .banner-section h1 {font-size: 56px; text-align: center;}
+    .banner-section h3 {font-size: 44px; text-align: center;}
+    .bnr-item-img {margin-bottom: -100px;}
+    .package-price {bottom: 100px;}
+    .package-price { position: relative; width: 130px; height: 130px;}
+    .package-border { width: 110px; height: 110px;}
+    .package-price h2 {font-size: 58px;}
+    .package-price p {letter-spacing: 5px; margin-top: -20px; padding-left: 5px; font-size: 15px;}
+    .Feature-section {padding: 0px;}
+    .features-content h3 {font-size: 30px; line-height: 26px;}
+    .menu-section h3 {width: 70%;}
+    .menu-section h2 {font-size: 28px;}
+    .menu-section p {font-size: 16px; line-height: 20px;}
+    .menu-section {padding: 40px 0;}   
+    .menu-items h3 {width: 100%;}
+    .event-section h2 {font-size: 36px; line-height: 36px; padding-bottom: 12px;}
+    .event-section {padding: 0px;}
+    .event-section p {font-size: 16px;}
+    .event-section p {font-size: 16px;}
+    .reservation-section{padding: 25px;}
+    .reservation-section h2 {font-size: 36px;}
+    .btn-reservation {font-size: 22px;}
+    .social-media ul li {margin: 0;}
+    .social-media ul li a .fa {width: 38px;}
+    footer img {width: 170px;}
+    .widget h3 {padding-top: 8px;}
+}
+
+/* ====================
+Media Query For Mobile
+======================= */
+@media (min-width:320px) and (max-width: 576px){
+    .Contact-info {text-align: center; padding: 0;}
+    .Contact-info li {display: block;}
+	.m-logo{display: none;}
+    .mobile-logo {display: initial;width: 70%;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .banner-section h4 {width: 100%; margin-top: 60px; font-size: 15px;}
+    .banner-section h1 {font-size: 56px; text-align: center;}
+    .banner-section h3 {font-size: 44px; text-align: center;}
+    .bnr-item-img {margin-bottom: -100px;}
+    .package-price {bottom: 100px;}
+    .package-price { position: relative; width: 130px; height: 130px;}
+    .package-border { width: 110px; height: 110px;}
+    .package-price h2 {font-size: 58px;}
+    .package-price p {letter-spacing: 5px; margin-top: -20px; padding-left: 5px; font-size: 15px;}
+    .Feature-section {padding: 0px;}
+    .features-content h3 {font-size: 30px; line-height: 26px;}
+    .first-item{margin-top: 30px;}
+    .menu-section h3 {width: 70%;}
+    .menu-section h2 {font-size: 28px;}
+    .menu-section p {font-size: 16px; line-height: 20px;}
+    .menu-section {padding: 40px 0;}   
+    .menu-items h3 {width: 100%;}
+    .event-section h2 {font-size: 36px; line-height: 36px; padding-bottom: 12px;}
+    .event-section {padding: 0px;}
+    .event-section p {font-size: 16px;}
+    .event-section p {font-size: 16px;}
+    .reservation-section{padding: 25px;}
+    .reservation-section h2 {font-size: 36px;}
+}
